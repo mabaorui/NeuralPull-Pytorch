@@ -21,11 +21,11 @@ This repository contains the official pytorch version code for Neural-Pull. If y
 
 ## Surface Reconstruction Demo
 <p align="left">
-  <img src="img/input_poitns.png" width="780" />
+  <img src="img/input_poitns.png" width="980" />
 </p>
 
 <p align="left">
-  <img src="img/Demo.jpg" width="780" />
+  <img src="img/Demo.jpg" width="980" />
 </p>
 
 ## Installation:
