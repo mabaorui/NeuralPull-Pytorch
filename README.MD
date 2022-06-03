@@ -1,5 +1,5 @@
 
-Neural-Pull: Learning Signed Distance Functions from Point Clouds by Learning to Pull Space onto Surfaces (ICML 2021)
+## Neural-Pull: Learning Signed Distance Functions from Point Clouds by Learning to Pull Space onto Surfaces (ICML 2021)
 
 
 This repository contains the official pytorch version code for the paper.
