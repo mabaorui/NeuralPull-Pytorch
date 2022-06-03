@@ -25,7 +25,7 @@ This repository contains the official pytorch version code for Neural-Pull. If y
 </p>
 
 <p align="left">
-  <img src="img/Demo.jpg" width="980" />
+  <img src="img/Demo.jpg" />
 </p>
 
 ## Installation:
