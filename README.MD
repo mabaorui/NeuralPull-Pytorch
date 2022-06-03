@@ -5,7 +5,7 @@
 This repository contains the official pytorch version code for the paper.
 [Neural-Pull: Learning Signed Distance Functions from Point Clouds by Learning to Pull Space onto Surfaces](https://arxiv.org/abs/2011.13495).
 
-You can find detailed usage instructions for training your own models and using pretrained models below.
+You can find detailed usage instructions for training your own models or running our provided demo below.
 
 If you find our code or paper useful, please consider citing
 
