@@ -48,7 +48,7 @@ def process_data(data_dir, dataname):
     sample_near = []
 
     for i in range(QUERY_EACH):
-        scale = 0.25 * np.sqrt(POINT_NUM_GT // 20000)
+        scale = 0.25 * np.sqrt(POINT_NUM_GT / 20000)
         tt = pointcloud + scale*np.expand_dims(sigmas,-1) * np.random.normal(0.0, 1.0, size=pointcloud.shape)
         sample.append(tt)
         tt = tt.reshape(-1,POINT_NUM,3)
