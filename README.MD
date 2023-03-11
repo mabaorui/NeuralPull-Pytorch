@@ -31,7 +31,7 @@ Our code is implemented in Python 3.8, PyTorch 1.11.0 and CUDA 11.3.
 conda create -n npull python=3.8
 conda activate npull
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
-pip install tqdm pyhocon trimesh PyMCubes scipy
+pip install tqdm pyhocon==0.3.57 trimesh PyMCubes scipy
 ```
 
 ## Data:
