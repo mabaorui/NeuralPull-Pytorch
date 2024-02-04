@@ -21,7 +21,7 @@ def process_data(data_dir, dataname):
         pointcloud = trimesh.load(os.path.join(data_dir, dataname) + '.ply').vertices
         pointcloud = np.asarray(pointcloud)
     elif os.path.exists(os.path.join(data_dir, dataname) + '.xyz'):
-        pointcloud = np.load(os.path.join(data_dir, dataname)) + '.xyz'
+        pointcloud = np.load(os.path.join(data_dir, dataname) + '.xyz')
     else:
         print('Only support .xyz or .ply data. Please make adjust your data.')
         exit()
